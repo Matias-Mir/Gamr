@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  color: #555;
+  font-family: 'Teko', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #0e0226;
+}
+
+.clearfix {zoom: 1;}
+.clearfix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+
+h2 {
+  font-size: 200%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #652dd4;
+  text-transform: uppercase;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background: #652dd4;
+  content: " ";
+  width: 100px;
+  margin: 30px auto 0 auto;
+}
+
+h3 {
+  font-size: 140%;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------*/
+/*   COLORES  */
+/*-------------------------------------------------------*/
+
+/* naranja flat = #e74c3c
+/* purpura = #652dd4*/
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------*/
+/*   HEADER  HEADER  HEADER HEADER HEADER HEADER HEADER  */
+/*-------------------------------------------------------*/
+
+header {
+  background: url(../img/purple-pc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  //background-position: center left;
+  height: 100vh;
+
+}
+
+.logo {
+  color: #fff;
+  border: 3px solid white;
+  //font-size: 90%;
+  padding: 10px;
+  margin-top: 24px;
+  float: left;
+  font-weight: 700;
+}
+
+.main-nav {
+  margin-top: 50px;
+}
+
+.list-item {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+}
+
+.list-link {
+  font-size: 100%;
+  text-transform: uppercase;
+  //letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.orange {
+  color: #e74c3c;
+}
+
+.special {
+  text-align: center;
+}
+
+.text-box {
+  position: absolute;
+  top: 150px;
+  left: 190px;
+}
+
+
+
+.text-box h1 {
+  font-size: 350%;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-right: 40px;
+  font-size: 180%;
+  letter-spacing: 1;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn-full, .btn-ghost {
+  border: 2px solid #e74c3c;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.btn-ghost {
+  color: #e74c3c;
+}
+
+.btn-full {
+  background: #e74c3c;
+}
+
+/*-------------------------------------------------------*/
+/*                  SECTION FEATURES                     */
+/*-------------------------------------------------------*/
+.section-features h3 {
+  color: #e74c3c;
+  font-size: 140%;
+}
+
+.section-features .row {
+  margin-top: 70px;
+}
+
+.ion-ios-checkmark-empty {
+  font-size: 200%;
+  color: #e74c3c;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.features li {
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 110%;
+}
+
+/*-------------------------------------------------------*/
+/*                  SECTION HOW                   */
+/*-------------------------------------------------------*/
+
+
+.span-1-of-3 {
+  text-align: center;
+}
+
+.section-steps {
+  //background: #f4f4f4;
+}
+
+.section-steps figcaption {
+  margin-top: 30px;
+}
+
+.section-steps .row {
+  margin-top: 70px;
+}
+
+
+
+/*-------------------------------------------------------*/
+/*                  SECTION FORM                  */
+/*-------------------------------------------------------*/
+.sign-form {
+  width: 60%;
+  margin: 70px auto 0 auto;
+}
+.section-form .row {
+  text-align: center;
+}
+
+.section-form p {
+  font-size: 120%;
+  letter-spacing: 1px;
+}
+
+.row label {
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 110%;
+  letter-spacing: 1px;
+  color: #e74c3c;
+}
+
+input, select {
+  width: 100%;
+  border: 1px solid #e74c3c;
+  border-radius: 3px;
+  padding: 10px;
+  background: #0e0226;
+  color: #e74c3c;
+}
+
+select {
+  color: #555;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  color: #fff;
+  background-color: #e74c3c;
+}
