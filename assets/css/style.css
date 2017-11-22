@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a {
@@ -16,7 +17,7 @@ ul {
 }
 
 html {
-  color: #555;
+  color: #cecece;
   font-family: 'Teko', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-  background-color: #0e0226;
+  background-color: #0e031f;
 }
 
 .clearfix {zoom: 1;}
@@ -81,8 +82,9 @@ h3 {
 /*   COLORES  */
 /*-------------------------------------------------------*/
 
-/* naranja flat = #e74c3c
-/* purpura = #652dd4*/
+/*  naranja flat = #e74c3c
+    purpura = #652dd4
+    fondo purpura oscuro: #0e031f */
 
 
 
@@ -269,4 +271,44 @@ input[type=submit] {
   cursor: pointer;
   color: #fff;
   background-color: #e74c3c;
+}
+
+
+/*-------------------------------------------------------*/
+/*                  FOOTER                  */
+/*-------------------------------------------------------*/
+
+footer {
+  //border: 2px solid white;
+  margin-top: 80px;
+  padding-bottom: 120px;
+  background: linear-gradient(#0e031f 50%, #652dd4 );
+}
+
+footer .icon-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.icon-item {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.icon-item a {
+  font-size: 130%;
+  color: #e74c3c;
+}
+
+footer .credits {
+  margin-top: 50px;
+  position: relative;
+  top: 100px;
+  margin-bottom: 10px;
+}
+
+.credits span {
+  font-size: 90%;
+  font-weight: 700;
+  color: #a185f7;
 }
