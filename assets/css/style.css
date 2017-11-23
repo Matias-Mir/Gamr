@@ -5,6 +5,7 @@
           box-sizing: border-box;
 }
 
+
 a {
   color: #fff;
   text-decoration: none;
@@ -132,7 +133,16 @@ header {
   text-transform: uppercase;
   //letter-spacing: 1px;
   font-weight: 700;
+  border: 2px solid transparent;
+  transition: 0.27s ease-in-out 0s;
 }
+
+.list-link:hover {
+  border-bottom: 2px solid #e74c3c;
+}
+
+
+
 
 .orange {
   color: #e74c3c;
@@ -160,16 +170,31 @@ header {
 
 .btn {
   margin-right: 40px;
-  font-size: 180%;
-  letter-spacing: 1;
+  font-size: 140%;
+  letter-spacing: 1px;
   margin-top: 20px;
+  font-weight: 700;
   display: inline-block;
 }
 
 .btn-full, .btn-ghost {
   border: 2px solid #e74c3c;
-  padding: 5px 15px;
+  padding: 7px 15px;
   border-radius: 10px;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.btn-full:hover, .btn-ghost:hover {
+  padding: 10px 20px;
+  border: 2px solid #e3301e;
+}
+
+.btn-ghost:hover {
+  color: #e3301e;
+}
+
+.btn-full:hover {
+  background: #e3301e;
 }
 
 .btn-ghost {
@@ -261,10 +286,13 @@ input, select {
   padding: 10px;
   background: #0e0226;
   color: #e74c3c;
+  letter-spacing: 1px;
 }
 
+input:hover
+
 select {
-  color: #555;
+  color: #e74c3c;
 }
 
 input[type=submit] {
@@ -282,7 +310,7 @@ footer {
   //border: 2px solid white;
   margin-top: 80px;
   padding-bottom: 120px;
-  background: linear-gradient(#0e031f 50%, #652dd4 );
+  background: #0e031f;
 }
 
 footer .icon-list {
@@ -311,4 +339,17 @@ footer .credits {
   font-size: 90%;
   font-weight: 700;
   color: #a185f7;
+}
+
+
+/*-------------------------------------------------------*/
+/*                  STICKY NAV                           */
+/*-------------------------------------------------------*/
+
+.sticky {
+  background: rgba(0, 0, 0, 0.6);  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
