@@ -307,39 +307,52 @@ input[type=submit] {
 /*-------------------------------------------------------*/
 
 footer {
-  //border: 2px solid white;
-  margin-top: 80px;
-  padding-bottom: 120px;
-  background: #0e031f;
+  background: #200556;
 }
 
-footer .icon-list {
+.icon-list {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .icon-item {
   display: inline-block;
-  margin-right: 25px;
+  margin-left: 20px;
 }
 
-.icon-item a {
-  font-size: 130%;
-  color: #e74c3c;
+.icon-link {
+  font-size: 120%;
+  color: #e95a4b;
 }
 
-footer .credits {
-  margin-top: 50px;
-  position: relative;
-  top: 100px;
-  margin-bottom: 10px;
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+  transition: 0.2s ease-in-out;
 }
 
-.credits span {
-  font-size: 90%;
-  font-weight: 700;
-  color: #a185f7;
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+  transition: 0.2s ease-in-out;
 }
+
+.ion-social-twitter:hover {
+  color: #55acee;
+  transition: 0.2s ease-in-out;
+}
+
+
+.ion-social-instagram:hover {
+  color: #9b6954;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+
+
 
 
 /*-------------------------------------------------------*/
@@ -347,7 +360,7 @@ footer .credits {
 /*-------------------------------------------------------*/
 
 .sticky {
-  background: rgba(0, 0, 0, 0.6);  
+  background: rgba(0, 0, 0, 0.6);
   position: fixed;
   top: 0;
   left: 0;
